@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+body{
+    /*background-image: url(../images/login-bg.jpg);*/
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.br-name{
+    color: #7e5c96;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-family: 'Luxurious Roman', cursive;
+}
+.login-button{
+    margin:30px;
+    width:20%;
+    font-family: 'Luxurious Roman', cursive;
+}
+.login-head{
+    text-align:center;
+    padding-top:0px;
+    /* color:#95064f; */
+    font-family: 'Luxurious Roman', cursive;
+}

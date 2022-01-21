@@ -1,0 +1,21 @@
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    font-size: 14px !important;
+}
+
+#outlined-basic{
+    /* width:400px; */
+    padding-left: 32px;
+    
+}
+
+.fontstyle
+{
+    font-family: 'Luxurious Roman', cursive
+}
+
+@media only screen and (max-width: 600px) {
+    #outlined-basic{
+        margin-left: 0px;
+        padding-left:0px;
+    }
+}
