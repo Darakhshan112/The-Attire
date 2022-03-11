@@ -49,7 +49,7 @@ export default function MediaControlCard({ userid, id, name, price, quantity, se
             <CardMedia
                 component="img"
                 sx={{ height: 150, width: 120 }}
-                // image="https://picsum.photos/600"
+               
                 image={process.env.PUBLIC_URL +`/clothes/${url}`}
                 alt="Image"
             />

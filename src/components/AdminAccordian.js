@@ -126,6 +126,7 @@ function Accordian(props) {
                   key={props.item.id}
                   sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                 >
+                  {/* Table fro admin to track orders*/} 
                   <TableCell align='left' style={{ fontWeight: "bold" }} >Name</TableCell>
                   <TableCell align='left' style={{ fontWeight: "bold" }}>Quantity</TableCell>
                   <TableCell align="left" style={{ fontWeight: "bold" }}>Price</TableCell>

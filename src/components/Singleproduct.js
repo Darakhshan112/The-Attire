@@ -24,6 +24,8 @@ const Item = styled(Paper)(({ theme }) => ({
     color: theme.palette.text.secondary,
 }));
 
+// File to show information of single product
+
 function Singleproduct({product, setCarts, currentUser}) {
     const [open, setOpen] = React.useState(false);
 const [openError, setOpenError] = React.useState(false);

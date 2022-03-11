@@ -39,7 +39,6 @@ function Landing() {
                         }}>
                             <Typography variant="h5" sx={{
                                 textAlign: "center",
-                                //  color:"#604078",
                                 color: "white",
                                 fontFamily: "Roboto"
                             }}>

@@ -58,7 +58,6 @@ const handleClose = (event, reason) => {
       phoneno: values.phoneno,
       status: currentUser.status
     };
-    // console.log(updUser);
     if(Object.values(updUser).filter((str)=>str === null || str.toString().match(/^ *$/) !== null).length >0)
     {
       setOpenError(true);

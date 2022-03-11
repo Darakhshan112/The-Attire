@@ -294,7 +294,6 @@ function AllProducts(props) {
                 <IconButton
 
                     aria-label="open drawer"
-                    //   edge="start"
                     onClick={handleDrawerToggle}
                     sx={{ display: { sm: 'none' }, border: "2px solid #9a78b3", borderRadius: "4%", color: "#9a78b3", height: "56px", padding: "12px", width: "30%" }}
                 >

@@ -49,6 +49,7 @@ const Accordian = (props) => {
                                     key={props.item.id}
                                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                                 >
+                                    {/* Table to show more info */}
                                     <TableCell align='left' style={{ fontWeight: "bold" }}>Name</TableCell>
                                     <TableCell align='left' style={{ fontWeight: "bold" }}>Quantity</TableCell>
                                     <TableCell align="left" style={{ fontWeight: "bold" }}>Price</TableCell>

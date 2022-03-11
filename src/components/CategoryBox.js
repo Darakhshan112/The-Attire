@@ -14,7 +14,7 @@ function CategoryBox(props) {
         // letterSpacing : "12px",
         fontSize: "1.7rem",
         display: "block",color: "white",
-        // fontFamily: "Roboto"
+       
         // color:"#8928b1"
     }
 
